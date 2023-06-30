@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cekuwahh0wdyd"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_lgk5q"]
+
+[node name="MiniMap" type="Sprite2D"]
+scale = Vector2(300, 300)
+texture = SubResource("CanvasTexture_lgk5q")
+centered = false

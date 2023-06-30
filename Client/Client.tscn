@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dksr7r0a1tnw4"]
+
+[ext_resource type="Script" path="res://Client/Client.gd" id="1_nybtb"]
+[ext_resource type="PackedScene" uid="uid://85wyt2sy1yly" path="res://Components/Gateway.tscn" id="2_u4jeo"]
+
+[node name="NetworkPeerClient" type="Node2D"]
+script = ExtResource("1_nybtb")
+
+[node name="Gateway" parent="." instance=ExtResource("2_u4jeo")]
+unique_name_in_owner = true
